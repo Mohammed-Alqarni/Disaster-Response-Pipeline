@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Disaster Response Dashboard</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            padding-top: 4rem;
+        }
+        .jumbotron {
+            background-color: #f8f9fa;
+            padding: 2rem 1rem;
+            margin-bottom: 2rem;
+        }
+        .jumbotron h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #343a40;
+        }
+        .btn-custom {
+            background-color: #28a745;
+            color: white;
+        }
+        footer {
+            margin-top: 2rem;
+            background-color: #343a40;
+            color: white;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">Disaster Response Dashboard</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="https://www.udacity.com/">Made with Udacity</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://github.com/">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Jumbotron Section -->
+<div class="jumbotron text-center">
+    <div class="container">
+        <h1 class="display-4">Disaster Response Project</h1>
+        <p class="lead">Analyzing and classifying messages for efficient disaster response</p>
+        <hr class="my-4">
+        <form action="/go" method="get" class="row justify-content-center">
+            <div class="col-md-8 mb-3">
+                <input type="text" name="query" class="form-control form-control-lg" placeholder="Enter a message to classify" required>
+            </div>
+            <div class="col-md-auto">
+                <button type="submit" class="btn btn-lg btn-custom">Classify Message</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Overview Section -->
+<div class="container">
+    <h2 class="text-center my-5">Overview of Training Dataset</h2>
+    <div class="row">
+        {% for id in ids %}
+        <div id="{{id}}" class="col-12 my-4"></div>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="text-center">
+    <div class="container">
+        <p>© 2024 Disaster Response Team. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    // Load graphs dynamically
+    const graphs = {{graphJSON | safe}};
+    const ids = {{ids | safe}};
+    ids.forEach((id, index) => {
+        Plotly.newPlot(id, graphs[index].data, graphs[index].layout);
+    });
+</script>
+
+</body>
+</html>
