@@ -54,9 +54,12 @@ A user-friendly web interface where users can:
 - Explore visual insights from the processed data.
 
 #### Screenshot 1: Classification Results
-![Classification Results](Screenshot%202024-12-02%20at%203.00.17%20PM.png)
+![Classification Results](one.png)
 
-#### Screenshot 2: Message Category Distribution
+#### Screenshot 2: Application Interface
+![Application Interface](Screenshot%202024-12-02%20at%203.00.17%20PM.png)
+
+#### Screenshot 3: Message Category Distribution
 ![Message Category Distribution](two.png)
 
 ---
@@ -87,6 +90,3 @@ This project leverages real-world datasets and serves as a practical exercise in
 - [Udacity Data Scientist Nanodegree review, and whether it is worth the huge premium](#)
 - [The Udacity Data Science Nanodegree — What do you actually learn about Data Science?](#)
 - [Udacity Data Scientist Nanodegree Review](#)
-
-
-
