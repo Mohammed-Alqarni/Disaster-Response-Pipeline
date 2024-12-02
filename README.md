@@ -1,4 +1,4 @@
-# **Disaster Response pipeline Project**
+# **Disaster Response Pipeline Project**
 
 ## **Table of Contents**
 - [Overview](#overview)
@@ -51,11 +51,12 @@ A user-friendly web interface where users can:
 - Input messages for real-time classification.
 - View classification results for various disaster-related categories.
 - Explore visual insights from the processed data.
-  
- ![image](https://github.com/user-attachments/assets/cf49ff36-428a-4d93-8f40-a0b5ed239338)
- ![Uploading image.png…]()
 
+#### Screenshot 1: Classification Results
+![Classification Results](Screenshot%202024-12-02%20at%203.00.17%20PM.png)
 
+#### Screenshot 2: Message Category Distribution
+![Message Category Distribution](two.png)
 
 ---
 
