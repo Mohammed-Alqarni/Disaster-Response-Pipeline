@@ -6,6 +6,7 @@
 - [Key Components](#key-components)
 - [How to Use the Project](#how-to-use-the-project)
 - [Credits and Acknowledgments](#credits-and-acknowledgments)
+- [References](#references)
 
 ---
 
@@ -71,3 +72,21 @@ A user-friendly web interface where users can:
 
 ## **Credits and Acknowledgments**
 This project leverages real-world datasets and serves as a practical exercise in data engineering and machine learning. Special thanks to the dataset providers and educational platforms that made this work possible.
+
+---
+
+## **References**
+
+- [stephanieirvine/Udacity-Data-Scientist-Nanodegree](https://github.com/stephanieirvine/Udacity-Data-Scientist-Nanodegree)
+- [Sajjadmanal/Udacity-Data-Scientist-Nanodegree](https://github.com/Sajjadmanal/Udacity-Data-Scientist-Nanodegree)
+- [Knowledge Portal](#)
+- [YouTube Video: Disaster Response Pipeline Project](https://www.youtube.com/watch?v=wBNYrd1gQH0)
+- [canaveensetia/udacity-disaster-response-pipeline](https://github.com/canaveensetia/udacity-disaster-response-pipeline)
+
+**Articles:**
+- [Udacity Data Scientist Nanodegree review, and whether it is worth the huge premium](#)
+- [The Udacity Data Science Nanodegree — What do you actually learn about Data Science?](#)
+- [Udacity Data Scientist Nanodegree Review](#)
+
+
+
