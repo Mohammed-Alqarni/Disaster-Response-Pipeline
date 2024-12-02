@@ -57,7 +57,8 @@ A user-friendly web interface where users can:
 ![Classification Results](one.png)
 
 #### Screenshot 2: Application Interface
-![Application Interface](Screenshot%202024-12-02%20at%203.00.17%20PM.png)
+![image](https://github.com/user-attachments/assets/a34c246d-1163-4a4c-81b8-3064f42891d6)
+
 
 #### Screenshot 3: Message Category Distribution
 ![Message Category Distribution](two.png)
