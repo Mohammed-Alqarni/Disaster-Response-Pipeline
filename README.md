@@ -53,6 +53,8 @@ A user-friendly web interface where users can:
 - Explore visual insights from the processed data.
   
  ![image](https://github.com/user-attachments/assets/cf49ff36-428a-4d93-8f40-a0b5ed239338)
+ ![Uploading image.png…]()
+
 
 
 ---
