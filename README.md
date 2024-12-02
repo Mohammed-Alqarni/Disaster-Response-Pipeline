@@ -53,15 +53,18 @@ A user-friendly web interface where users can:
 - View classification results for various disaster-related categories.
 - Explore visual insights from the processed data.
 
-#### Screenshot 1: Classification Results
-![Classification Results](one.png)
 
-#### Screenshot 2: Application Interface
+#### Screenshot 1: Application Interface
 ![image](https://github.com/user-attachments/assets/a34c246d-1163-4a4c-81b8-3064f42891d6)
 
 
+#### Screenshot 2: Classification Results
+![image](https://github.com/user-attachments/assets/02e2e7ee-32c6-4e72-92a7-09cedfc6f811)
+
+
 #### Screenshot 3: Message Category Distribution
-![Message Category Distribution](two.png)
+![image](https://github.com/user-attachments/assets/c7e54e03-bdb7-49e0-91db-6eaa37988d75)
+
 
 ---
 
